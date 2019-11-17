@@ -1,0 +1,970 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.navbar{
+    width: 100%;
+    background: cyan;
+    height: 12vh;
+    position: fixed;
+    animation: nav 10s infinite;
+    z-index: 1;
+
+}
+
+@keyframes nav{
+    10%{background: orangered;}
+    20%{background: aquamarine;}
+    30%{background: blueviolet;}
+    40%{background: bisque;}
+    50%{background: cadetblue;}
+    60%{background: cornflowerblue;}
+    70%{background: coral;}
+    80%{background: darkseagreen;}
+    90%{background: forestgreen;}
+    100%{background: gold;}
+}
+
+.navbar> .right-bar{
+width: 30%;
+margin-left: 60px;
+}
+
+.navbar> .right-bar>img{
+
+}
+
+.navbar> .left-bar>ul{
+    position: absolute;
+    top: 20px;
+    left: 700px;
+}
+
+.navbar> .left-bar>ul>li{
+    float: left;
+    margin-left:20px ;
+    background: orange;
+    border-radius: 40px;
+    padding: 10px 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.header{
+    position: relative;
+    height: 85vh;
+    border: 1px solid black;
+    top: 12vh;
+    background-image: url(./img/header2.jpg);
+    background-size: 100% 100%;
+    
+    
+}
+
+.header>h1{
+    margin-top: 200px;
+    margin-left: 100px;
+    color: white;
+    font-size: 50px;
+}
+
+.header>h1>span{
+    color:darkblue;
+}
+
+.header>p{
+    font-size: 20px;
+    margin-left: 100px;
+    color: white;
+}
+
+.btn1{
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 60px;
+    background: darkorange;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.header2{
+    position: relative;
+    height: 50vh;
+    top: 12vh;
+}
+
+.header2a{
+    width: 33.3%;
+    height: 50vh;
+    float: left;
+    background: green;
+    text-align: center;
+    color: white;
+}
+
+.header2a>h1{
+    margin:10px 0px;
+}
+
+.header2a>p{
+    margin: 10px 0px;
+}
+
+.header2b{
+    width: 33.3%;
+    height: 50vh; 
+    float: left;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+.header2b>h1{
+    margin:10px 0px;
+}
+
+.header2b>p{
+    margin: 10px 0px;
+}
+
+.header2c{
+    width: 33.3%;
+    height: 50vh;
+    float: left;
+    background: green;
+    text-align: center;
+    color: white;
+}
+
+.header2c>h1{
+    margin:10px 0px;
+}
+
+.header2c>p{
+    margin: 10px 0px;
+}
+
+.clear{
+    clear: both;
+}
+
+.sicon{
+    width: 60px;
+    height: 40px;
+    background: lightcyan;
+    border-radius: 50%;
+    padding: 10px;
+    margin:auto;
+    margin-top: 30px;
+    
+}
+
+.sicon>img{
+    width: 60px;
+    height: 40px;
+}
+
+.dicon{
+    width: 60px;
+    height: 40px;
+    background: lightcyan;
+    border-radius: 50%;
+    padding: 10px;
+    margin:auto;
+    margin-top: 30px;
+    
+}
+
+.dicon>img{
+    width: 60px;
+    height: 40px;
+}
+
+
+.picon{
+    width: 60px;
+    height: 40px;
+    background: lightcyan;
+    border-radius: 50%;
+    padding: 10px;
+    margin:auto;
+    margin-top: 30px;
+    
+}
+
+.picon>img{
+    width: 60px;
+    height: 40px;
+}
+
+.feature{
+    position: relative;
+    top: 12vh;
+    height: 80vh;
+    
+}
+
+.feature>h1{
+    color: purple;
+    text-align: center;
+    margin: 30px 0px;
+    
+}
+
+.f1{
+    
+    width: 40%;
+    height: 20vh;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 40px 60px;
+
+}
+
+
+.f1-circle{
+    width: 60px;
+    height: 40px;
+    background:orange;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+
+
+.f1-circle>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    
+}
+
+
+.f2{
+    width: 40%;
+    height: 20vh;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 40px 60px;
+}
+
+.f2-circle{
+    width: 60px;
+    height: 40px;
+    background:orange;
+    border-radius: 50%;
+    padding: 10px;  
+    
+}
+
+.f2-circle>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    
+}
+
+
+.f3{
+    width: 40%;
+    height: 20vh;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 40px 60px;
+}
+
+.f3-circle{
+    width: 60px;
+    height: 40px;
+    background:orange;
+    border-radius: 50%;
+    padding: 10px;  
+    
+}
+
+.f3-circle>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+
+.f4{
+    width: 40%;
+    height: 20vh;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 40px 60px;
+
+}
+
+.f4-circle{
+    width: 60px;
+    height: 40px;
+    background:orange;
+    border-radius: 50%;
+    padding: 10px; 
+    
+}
+
+.f4-circle>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.f1, .f2, .f3, .f4{
+    box-shadow: 1px 3px 9px 4px black;
+}
+
+
+.f1>h1, .f2>h1, .f3>h1, .f4>h1{
+    margin-left: 120px;
+    margin-top: -90px;
+    
+    
+}
+.f1>p, .f2>p, .f3>p, .f4>p{
+    margin-left: 120px;
+    
+}
+
+.f1-circle, .f2-circle, .f3-circle, .f4-circle{
+margin: 30px;
+}
+
+
+.marketing{
+    position: relative;
+    height: 75vh;
+    top: 12vh;
+}
+
+.m1{
+    width: 40%;
+    height: 75vh;
+    
+    float: left;
+}
+
+.m1>img{
+    width: 100%;
+    height: 75vh;
+}
+
+.m2{
+    width: 20%;
+    height: 75vh;
+    border: 1px solid black;
+    float: left;
+}
+
+.m2>img{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+
+.m2>h1{
+    font-weight: bold;
+    color: orange;
+    margin-left: 30px;  
+    margin-bottom: 15px;
+    font-size: 30px;  
+}
+
+.m2>p{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.m3{
+    width: 20%;
+    height: 75vh;
+    border: 1px solid black;
+    float: left;
+}
+
+.m3>img{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+
+.m3>h1{
+    font-weight: bold;
+    color: orange;
+    margin-left: 30px;  
+    margin-bottom: 15px;
+    font-size: 30px;  
+}
+
+.m3>p{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.m4{
+    width: 19%;
+    height: 75vh;
+    border: 1px solid black;
+    float: left;
+}
+
+.m4>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+
+}
+
+.m4>h1{
+    font-weight: bold;
+    color: orange;
+    margin-left: 30px;  
+    margin-bottom: 15px;
+    font-size: 30px;  
+}
+
+.m4>p{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.img-sec{
+    position: relative;
+    background-image: url(./img/world2.jpg);
+    height: 80vh;
+    background-attachment: fixed;
+    margin-top: 12.4vh;
+    background-size: 100% 100%;
+}
+
+.img-sec> .img-sec-text{
+    position: absolute;
+    top: 250px;
+    left: 80px;
+}
+
+.img-sec> .img-sec-text>h1{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 100px;
+
+}
+
+.uis1{
+    position: relative;
+    height: 60vh;
+    
+}
+
+.uis1>img{
+    width: 50%;
+    height: 60vh;
+    display: inline-block;
+}
+
+.uis1>h2{
+    position: absolute;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 110px;
+}
+
+.uis1>h1{
+    position: absolute;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 160px;
+    color: orange;
+    font-size: 30px;
+}
+
+.uis1>p{
+    position: absolute;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 200px;
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.uis2{
+    position: relative;
+    height: 60vh;
+    
+}
+
+.uis2>img{
+    width: 50%;
+    height: 60vh;
+    display: inline-block;
+    margin-left: 50%;
+}
+
+.uis2>h2{
+    position: absolute;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 110px;
+}
+
+.uis2>h1{
+    position: absolute;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 160px;
+    color: orange;
+    font-size: 30px;
+}
+
+.uis2>p{
+    position: absolute;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 200px;
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.uis3{
+    position: relative;
+    height: 60vh;
+    
+}
+
+.uis3>img{
+    width: 50%;
+    height: 60vh;
+    display: inline-block;
+}
+
+.uis3>h2{
+    position: absolute;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 110px;
+}
+
+.uis3>h1{
+    position: absolute;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 160px;
+    color: orange;
+    font-size: 30px;
+}
+
+.uis3>p{
+    position: absolute;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 200px;
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.work-sec{
+    position: relative;
+    height: 150vh;
+    background: lavender;
+    padding-top: 100px;
+    
+}
+
+
+.work-sec>h1{
+    
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    margin-top:-30px;
+}
+
+.work-sec> .images{
+    margin-top:60px ;
+    height: 101vh;
+
+}
+.work-sec> .images>img{
+    width: 33.1%;
+    height: 50vh;
+}
+
+.btn2{
+    background: orange;
+    padding: 10px 50px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+.price{
+    position: relative;
+    height: 110vh;
+    
+}
+
+.price>h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 30px;
+}
+.price> .p1{
+    width: 30%;
+    height: 70vh;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 30px;
+    box-shadow: 2px 3px 8px 1px;
+}
+
+.price> .p1>h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-left:70px;
+    margin-top: 30px;
+    
+}
+
+.price> .p1>h2{
+    font-size: 30px;
+    margin-left:100px;
+}
+
+.price> .p1>h2>span{
+    color:blue;
+    font-size: 56px;
+}
+
+.price> .p1> ul{
+    margin-top: 30px;
+    margin-left:80px;
+}
+
+.btn3{
+    margin-top: 30px;
+    margin-left:100px;
+    background:orange;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price> .p1>img{
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: 300px;
+}
+
+.price> .p2{
+    width: 30%;
+    height: 80vh;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 30px;
+    box-shadow: 2px 3px 8px 1px;
+}
+
+.price> .p2>h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-left:70px;
+    margin-top: 30px;
+    
+}
+
+.price> .p2>h2{
+    font-size: 30px;
+    margin-left:100px;
+}
+
+.price> .p2>h2>span{
+    color:blue;
+    font-size: 56px;
+}
+
+.price> .p2> ul{
+    margin-top: 30px;
+    margin-left:80px;
+}
+
+.btn4{
+    margin-top: 30px;
+    margin-left:100px;
+    background:orange;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price> .p2>img{
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: 300px;
+}
+
+.price> .p3{
+    width: 30%;
+    height: 70vh;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 30px;
+    box-shadow: 2px 3px 8px 1px;
+}
+
+.price> .p3>h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-left:70px;
+    margin-top: 30px;
+    
+}
+
+.price> .p3>h2{
+    font-size: 30px;
+    margin-left:100px;
+}
+
+.price> .p3>h2>span{
+    color:blue;
+    font-size: 56px;
+}
+
+.price> .p3> ul{
+    margin-top: 30px;
+    margin-left:80px;
+}
+
+.btn5{
+    margin-top: 30px;
+    margin-left:100px;
+    background:orange;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price> .p3>img{
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: 300px;
+}
+
+.img-sec-2{
+    position: relative;
+    background-image: url(./img/glashier1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 80vh;
+    
+}
+
+.img-sec-2>h1{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    margin: 140px 450px;
+}
+
+.img-sec-2>p{
+    position: absolute;
+    color: white;
+    margin: 240px 350px;
+}
+
+.btn6{
+    background: orange;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin: 340px 550px;
+}
+
+.news{
+    position: relative;
+    height: 150vh;
+    
+}
+
+.news>h1{
+    position: absolute;
+    font-weight: 700;
+    font-size: 40px;
+    color: purple;
+    margin: 70px 550px;
+}
+
+.news> .news-img{
+    position: relative;
+    height: 50vh;
+    
+    top: 300px;
+}
+
+.news> .news-img img{
+    width: 30%;
+    margin-left:30px ;
+}
+
+.news-block{
+    position: relative;
+    height: 42vh;
+    
+    top: 50vh;
+}
+
+.n1{
+    position: absolute;
+    width: 30%;
+    height: 40vh;
+    border: 1px solid black;
+    left: 30px;
+    box-shadow: 1px 3px 9px 3px;
+    
+
+}
+
+.n1>h1{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.n1>p{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.n2{
+    position: absolute;
+    width: 30%;
+    height: 40vh;
+    border: 1px solid black;
+    left: 31%;
+    margin-left: 50px;
+    box-shadow: 1px 3px 9px 3px;
+
+}
+
+.n2>h1{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.n2>p{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.n3{
+    position: absolute;
+    width: 30%;
+    height: 40vh;
+    border: 1px solid black;
+    left: 62%;
+    margin-left: 70px;
+    box-shadow: 1px 3px 9px 3px;
+}
+
+.n3>h1{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.n3>p{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.contact{
+    position: relative;
+    height: 40vh;
+    background: black;
+
+
+}
+
+.contact>h1{
+    position: absolute;
+    color: white;
+    margin: 40px 580px;
+}
+
+.contact> .left-side>ul{
+    position: absolute;
+    color: white;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+
+.contact> .left-side>ul>li{
+    margin-top: 15px;
+}
+
+.contact> .left-side>ul>li>i{
+    margin:0px 10px;
+}
+.contact> .right-side{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 50px;
+}
+
+.contact> .right-side>i{
+    margin-left: 30px;
+    color: white;
+    font-size: 30px;
+
+
+}
+.contact> .right-side>i:hover{
+    cursor: pointer;
+}
+
+.contact>p{
+    position: absolute;
+    color: white;
+    margin-top: 220px;
+    margin-left: 200px;
+}
+
+.contact>p>span:nth-child(1){
+    color: orange;
+}
+
+.contact>p>span:nth-child(2){
+    color: salmon;
+}
+
+.contact>p>span:nth-child(3){
+    color: red;
+}
